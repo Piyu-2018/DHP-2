@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  background-image: url("../C_image/cusSignup.png");
+  background-size:cover;
+}
+
+.content{
+  position: absolute;
+  
+  width: 978px;
+  height: 616.27px;
+  left: 18.55%;
+  right: 20.55%;
+  top: 100px;
+
+
+  backdrop-filter: blur(400px);
+  -webkit-backdrop-filter: blur(400px);
+  background-color:linear-gradient(114.1deg, rgba(40, 40, 40, 0.91) 18.52%, rgba(15, 15, 15, 0.73) 98.52%), linear-gradient(106.04deg, rgba(255, 255, 255, 0.12) 10.95%, rgba(255, 255, 255, 0.1) 98.32%);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 43px;
+
+}
+.form-area{
+  display:flex;
+  flex-wrap:wrap ;
+}
+ .contentform .input-box1, .input-box2, .input-box3, .input-box4, .input-box5, .input-box6, .input-box7{
+  position: absolute;
+  height: 44px;
+  opacity: 0.9;
+}
+
+
+form .input-box0 {
+  width: 186px;
+  height: 211px;
+  left: 50px;
+  top: 50px;
+  
+  background: #F5F5F5;
+  border-radius: 27px;
+}
+
+.input-box0 input{
+  width: 128px;
+  height: 128px;
+  left: 29px;
+  top:28px;
+  background: url(pngtree-profile-line-black-icon-png-image_691051.jpg);
+}
+
+form  .upload{
+  width: 110px;
+  height: 30px;
+  left: 85px;
+  top: 270px;
+  background: #39A2DB;
+  border-radius: 23.5px;
+ }
+
+.upload input{ 
+  left: 17.27%;
+  right: 27.27%;
+  top: 10%;
+  bottom: 5%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: transparent;
+  border-color: transparent;
+  color: #FFFFFF;
+ }
+
+
+
+.input-box1{
+  padding:0 205px;
+  top: 50px;
+  left: 8.47%;
+  right:22.48%;
+}
+
+.input-box2 {
+  padding:0 455px;
+  top: 50px;
+  left: 8.47%;
+  right: 22.48%;
+}
+
+.input-box3{
+  padding:0 205px;
+  top: 120px;
+  width: 315.42px;
+  left: 8.47%;
+  right:28.48%;
+}
+
+  
+.input-box4{
+  width: 407px;
+  padding:0 205px;
+  top: 190px;
+  width: 315.42px;
+  left: 8.47%;
+  right:22.48%;
+}
+
+
+.input-box5{
+  width: 611px;
+  padding:0 205px;
+  top: 260px;
+  left: 8.47%;
+  right:22.48%;
+  width: 449px;
+}
+
+form .input-box6{
+  width: 407px;
+  padding:0 205px;
+  top: 330px;
+  width: 315.42px;
+  left: 8.47%;
+  right:22.48%;
+}
+
+form .input-box7{
+  width: 407px;
+  padding:0 205px;
+  top: 400px;
+  width: 315.42px;
+  left: 8.47%;
+  right:22.48%;
+}
+
+
+form .input-box1 input, .input-box2 input, .input-box3 input, .input-box4 input, .input-box5 input,.input-box6 input, .input-box7 input{
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 24px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  color: #F5F5F5; 
+}
+
+.tick span.details {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  padding: 0 205px;
+  top: 470px;
+  
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;  
+ }
+
+.tick input{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 308px;
+  top: 467px;
+  border-color: transparent;
+  
+}
+
+.agreement {
+  left: 36.89%;
+  right: 10.57%;
+  top: 76.55%;
+  bottom: 51.69%;
+ }
+
+.button{
+  position: absolute;
+  width: 157px;
+  height: 39px;
+  left: 312px;
+  top: 544px;
+  background: #00D261;
+  border-radius: 23.5px;
+ }
+ 
+.button input{
+  position: absolute;
+  left: 21.94%;
+  right: 29.94%;
+  top: 15.51%;
+  bottom: 15.08%;
+  
+  font-family: Alatsi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: transparent;
+  border-color: transparent;
+  /* identical to box height */
+  color: #FFFFFF;
+ }
+
+.text {
+  left: 480px;
+  top: 554px; 
+ }
+
+ .agreement, .text{
+  position: absolute;
+  font-family: Alatsi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+ }
+ @media(max-width: 459px){
+  .content{
+    flex-direction: column;
+  }
+  .content{
+    width:100%;
+  }
+ }
+
